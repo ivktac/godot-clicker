@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://qr1rqy21su5h"]
+
+[ext_resource type="Texture2D" uid="uid://8ybd8tf408o1" path="res://assets/sprites/vegetables.png" id="1_2dbil"]
+[ext_resource type="Script" path="res://scripts/vegetable.gd" id="2_n723u"]
+
+[node name="RandomVegetable" type="Sprite2D"]
+scale = Vector2(5, 5)
+texture = ExtResource("1_2dbil")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
+script = ExtResource("2_n723u")

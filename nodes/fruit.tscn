@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b088sree212pd"]
+
+[ext_resource type="Texture2D" uid="uid://bris5aigex6vj" path="res://assets/sprites/fruits.png" id="1_4pypn"]
+[ext_resource type="Script" path="res://scripts/fruit.gd" id="2_70cx2"]
+
+[node name="RandomFruit" type="Sprite2D"]
+scale = Vector2(5, 5)
+texture = ExtResource("1_4pypn")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
+script = ExtResource("2_70cx2")
